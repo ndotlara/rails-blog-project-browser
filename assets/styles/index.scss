@@ -1,2 +1,34 @@
+/*
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+
+// Please show ISO Republic love as images on this site were used courtesy of them! http://isorepublic.com/abstract-pattern/
+
+
 $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap';
+
+$wheat: #e0e0c0;
+$gray: #808080;
+$darkgray: #a0a0a0;
+$darkeagreen: #a0a080;
+$paleplum: #a08080;
+$font-headers: 'Rufina', serif;
+$font-content: 'Oxygen', sans-serif;
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5em;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: $font-content;
+  color: $wheat;
+}
