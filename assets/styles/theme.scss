@@ -1,0 +1,45 @@
+@import './colors';
+
+body {
+  background-color: $wheat;
+  margin: 0 auto;
+}
+
+img {
+  border: solid 10px $darkeagreen;
+  opacity: .9;
+}
+
+ul {
+  list-style: none;
+  float: right;
+  margin-right: 5%;
+}
+
+li {
+  display: inline-block;
+  margin: 15px;
+}
+
+a {
+  color: $paleplum;
+  text-decoration: none;
+}
+
+a:visited {
+  color: $dark-green;
+  text-decoration: none;
+}
+a:hover {
+  color: $darkgray;
+  text-decoration: none;
+}
+
+hr {
+  color: $darkeagreen;
+}
+
+footer {
+  text-align: center;
+  margin: 30px auto;
+}
