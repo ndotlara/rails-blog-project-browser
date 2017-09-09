@@ -1,159 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>A Portfolio-Blog by Natalia Lara</title>
-    <!-- Required meta tags -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+    <head>
+      <title>Natalia C. Lara</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-     <!-- Do not add `link` tags unless you know what you are doing -->
-     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+      <!-- Do not add `link` tags-->
+      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
-     <!-- Do not add `script` tags unless you know what you are doing -->
-     <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
-     <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
-   </head>
-  <!-- Primary Page Layout _____________________________________-->
-  <body>
+      <!-- FONT
+      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <link href='https://fonts.googleapis.com/css?family=Oxygen|Rufin' rel='stylesheet' type='text/css'>
 
-    <div class="blog-masthead">
+      <!-- CSS
+      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <link rel="stylesheet" href="assets/styles/ xcss/normalize.css">
+      <link rel="stylesheet" href="assets/styles/css/skeleton.css">
+      <link rel="stylesheet" href="assets/styles/index.scss">
+
+      <!-- Do not add `script` tags-->
+      <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
+      <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
+    </head>
+    <!-- begin document -->
+    <!-- header -->
+    <header>
       <div class="container">
-        <nav class="nav">
-          <a class="nav-link active" href="#">Home</a>
-          <a class="nav-link" href="#">About Me</a>
-          <a class="nav-link" href="#">Portfolio</a>
-          <a class="nav-link" href="#">Blog</a>
-          <a class="nav-link" href="#">Resume</a>
-        </nav>
-      </div>
-    </div>
-
-    <div class="blog-header">
-      <div class="container">
-        <h1 class="blog-title">Natalia's Portfolio-Blog</h1>
-        <p class="lead blog-description">A blog about a recruiter turned web developer. </p>
-      </div>
-    </div>
-
-    <div class="container">
-
-      <div class="row">
-
-        <div class="col-sm-8 blog-main">
-
-          <div class="blog-post">
-            <h2 class="blog-post-title">Learning is a Lifelong Journey</h2>
-            <p class="blog-post-meta">August 29, 2017 by <a href="#">Natalia</a></p>
-
-            <p>Join me as I embark on a new journey to become a full stack web developer.  I'll share the lessons I've learned, best practices, and tutorials to help you on your own journey, and more importantly resources and inspiration.</p>
-
-            <p>Please leave comments, send me questions, suggestions and/or gig inquiries.  Come back soon for updates!</p>
-            <hr>
-            <blockquote>
-              <p><strong>All the world is my school and all humanity is my teacher.</strong></p><p><em>  ~ George Whitman</em> </p>
-            </blockquote>
-            <hr>
-            <!-- <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p> -->
-            <h2>Heading</h2>
-            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-            <h3>Sub-heading</h3>
-            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-            <pre><code>Example code block</code></pre>
-            <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-            <h3>Sub-heading</h3>
-            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <div class="row">
+          <div class="twelve columns">
+          <nav>
             <ul>
-              <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-              <li>Donec id elit non mi porta gravida at eget metus.</li>
-              <li>Nulla vitae elit libero, a pharetra augue.</li>
+              <li><a href="#">About Me</a></li>
+              <li><a href="#"></a>Portfolio</li>
+              <li><a href="#"></a>Resume</li>
+              <li><a href="#"></a>Blog</li>
             </ul>
-            <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-            <ol>
-              <li>Vestibulum id ligula porta felis euismod semper.</li>
-              <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
-              <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
-            </ol>
-            <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
-          </div><!-- /.blog-post -->
-
-          <div class="blog-post">
-            <h2 class="blog-post-title">Another blog post</h2>
-            <p class="blog-post-meta">December 23, 2013 by <a href="#">Jacob</a></p>
-
-            <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-            <blockquote>
-              <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            </blockquote>
-            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-          </div><!-- /.blog-post -->
-
-          <div class="blog-post">
-            <h2 class="blog-post-title">New feature</h2>
-            <p class="blog-post-meta">December 14, 2013 by <a href="#">Chris</a></p>
-
-            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <ul>
-              <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-              <li>Donec id elit non mi porta gravida at eget metus.</li>
-              <li>Nulla vitae elit libero, a pharetra augue.</li>
-            </ul>
-            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-            <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-          </div><!-- /.blog-post -->
-
-          <nav class="blog-pagination">
-            <a class="btn btn-outline-primary" href="#">Older</a>
-            <a class="btn btn-outline-secondary disabled" href="#">Newer</a>
           </nav>
+        </div>
+      </div>
+    <div class="row">
+      <div class="twelve columns">
+      <h1>Natalia C. Lara</h1>
 
-        </div><!-- /.blog-main -->
+      <h4><p>I am a recruiter-turned developer who loves to create beautiful and fuctional apps.</p>
+      <p>I gravitate towards people who want to do good in this world and help bring their ideas to life.</p></h4>
+      <a href="#" class="btn">Hire me</a>
+    </div>
+  </div>
 
-        <div class="col-sm-3 offset-sm-1 blog-sidebar">
-          <div class="sidebar-module sidebar-module-inset">
-            <h4>About</h4>
-            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-          </div>
-          <div class="sidebar-module">
+  <section class="portfolio">
+        <div class="row">
+          <div class="twelve columns">
             <h3>My areas of expertise</h3>
-            <ul class="list-unstyled">
-                <li><h4>Web Design</h4></li>
-                  <p>sample text</p>
-                <li><h4>Graphic Design</h4></li>
-                  <p>sample text</p>
-                <li><h4>Photography</h4></li>
-                  <p>sample text</p>
-                <li><h4>Career Coaching</h4></li>
-                  <p>sample text</p>
-            </ul>
-            <a href="#" class="btn">Hire me</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="one-half column">
+            <a href="#">
+              <h4>Web Design</h4>
+              <span class="fa fa-picture-o"></span>
+              <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+            </a>
+          </div>
+          <div class="one-half column">
+            <a href="#">
+              <h4>Technical Recruitment</h4>
+              <span class="fa fa-leaf"></span>
+              <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+            </a>
+          </div>
+        </div><!--end of .row-->
+      </section>
+    </div><!--end of .container-->
+  </header>
+
+  <!--ABOUT-->
+  <section class="about">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h3>Who am I</h3>
+        </div>
+      </div><!--end of .row-->
+      <div class="row bottom">
+        <div class="two-thirds column">
+          <p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero,
+          sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.</p>
+          <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
+          Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc</p>
+        </div>
+        <div class="one-third column">
+          <h4>Projects I've worked on</h4>
+          <!-- <ul>
+            <li>BA in Information Systems</li>
+            <li>MSc in Applied Mathematics </li>
+            <li>Phd in Artificial Intelligence</li>
           </ul>
-          </div>
-          <div class="sidebar-module">
-            <h4>Connect with me!</h4>
-            <ul class="list-unstyled">
-              <li><a href="#">GitHub</a></li>
-              <li><a href="#">LinkedIn</a></li>
-            </ul>
-          </div>
-        </div><!-- /.blog-sidebar -->
+          <h4>Honors</h4>
+            <ul>
+              <li>1st place in the contest "MyContest"</li>
+              <li>Best Paper for 2014</li>
+            </ul> -->
+            <a href="#" class="btn">Download resume</a>
+        </div>
+      </div><!--end of .row-->
+      <div class="row">
+        <div class="twelve columns">
+          <h4 class="center">Interested in samples of my work?</h4>
+        </div>
+      </div><!--end of .row-->
+      <div class="row">
+        <div class="twelve columns">
+          <a href="#" class="btn block">Visit Github</a>
+        </div>
+      </div><!--end of .row-->
+    </div><!--end of .container-->
+  </section>
 
-      </div><!-- /.row -->
+  <!--CONTACT-->
+  <section class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h3>Contact</h3>
+        </div>
+      </div><!--end of .row-->
+      <div class="row">
+        <div class="offset-by-two eight columns">
+          <ul>
+            <!-- <li><a href="#" title=""><span class="fa fa-facebook"></span></a></li>
+            <li><a href="#" title=""><span class="fa fa-twitter"></span></a></li>
+            <li><a href="#" title=""><span class="fa fa-dribbble"></span></a></li> -->
+            <li><a href="#" title=""><span class="fa fa-linkedin"></span></a></li>
+            <li><a href="#" title=""><span class="fa fa-github"></span></a></li>
+          </ul>
+        </div>
+      </div><!--end of .row-->
+      <div class="row">
+        <div class="twelve columns">
+          <a href="#" class="btn block btn-blue">Mail me</a>
+        </div>
+      </div><!--end of .row-->
+      <div class="row">
+        <div class="twelve columns">
+          <!-- <p class="creator">A demo by George Martsoukos. <a href="http://www.sitepoint.com/getting-started-with-skeleton-simple-css-boilerplate">See article</a>.</p> -->
+        </div>
+      </div><!--end of .row-->
+    </div><!--end of .container-->
+  </section>
 
-    </div><!-- /.container -->
-
-    <footer class="blog-footer">
-
-        <a href="#">Back to top</a>
-      </p>
-    </footer>
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-
-    <!-- CREDITS: Blog template built for <a href="https://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a> and styled by Natalia Lara -->
-  </body>
+    </body>
 </html>
