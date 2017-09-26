@@ -1,5 +1,4 @@
 // @import './bootstrap';
-@import './theme';
 @import './typography';
 @import './colors';
 
@@ -69,10 +68,10 @@ header {
   padding: 150px 0;
 }
 
-header {
-  background: url('assets/images/abstract-pattern.jpg') no-repeat fixed center / cover;
-  text-align: center;
-}
+// header {
+//   background: url('./../images//abstract-pattern.jpg') no-repeat fixed center / cover;
+//   text-align: center;
+// }
 
 nav ul, .contact ul {
   list-style: none;
@@ -111,7 +110,7 @@ nav li:nth-child(2n+1) a:after {
 // Portfolio styles
 .portfolio a {
   padding: 25px;
-  background: @gray;
+  background: $gray;
   margin-top: 20px;
   border-radius: 4px;
 }
@@ -126,18 +125,18 @@ nav li:nth-child(2n+1) a:after {
 }
 
 .portfolio a:hover span {
-  color: @wheat;
+  color: $wheat;
 }
 
 .portfolio p {
   margin: 15px 0 0;
 }
 
-// About styles
-.about {
-  background: url("abstract-pattern.jpg") no-repeat fixed center / cover;
-  color: $darkeagreen;
-}
+// // About styles
+// .about {
+//   background: url("./../images/abstract-pattern.jpg") no-repeat fixed center / cover;
+//   color: $darkeagreen;
+// }
 
 .about .one-third,
 .about .two-thirds {
@@ -212,14 +211,14 @@ nav li:nth-child(2n+1) a:after {
 }
 
 .contact span:hover {
-  color: @paleplum;
+  color: $paleplum;
 }
 
 .contact .btn-blue {
   position: relative;
   margin-top: 30px;
-  color: @wheat;
-  background: @paleplum;
+  color: $wheat;
+  background: $paleplum;
   box-shadow: 0 8px #3b6d97;
 }
 
